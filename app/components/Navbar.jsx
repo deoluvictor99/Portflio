@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
-import Link from 'next/link'
-// import { Link } from 'react-scroll';
+// import Link from 'next/link'
+import { Link } from 'react-scroll';
 
 import { useState } from 'react';
 
@@ -36,13 +36,13 @@ export const Navbar = () => {
                             }
             >
                     <li>
-                        <Link href={"/"} to='Home'  >Home</Link>
+                        <Link href={"/"} to='Home' offset={-60} smooth={true} duration={500}>Home</Link>
                     </li>
                     <li>
-                        <Link href={"/"} to='About' >About</Link>
+                        <Link href={"/"} to='About' offset={-60} smooth={true} duration={500}>About</Link>
                     </li>
                     <li>
-                        <Link href={"/"} to='Projects' >Projects</Link>
+                        <Link href={"/"} to='Projects' offset={-60} smooth={true} duration={500}>Projects</Link>
                     </li>
                     <li>
                         <a href={"https://wa.me/09075380750"} target="_blank">Contact Me</a>
