@@ -5,11 +5,11 @@ import Image from 'next/image'
 const Projects = () => {
     return (
         <>
-            <main className='w-[100%] md:w-screen p-8 flex justify-center text-white' id='Projects'>
+            <main className='w-[100%] md:w-screen md:p-8 flex justify-center text-white' id='Projects'>
                 <div className='md:w-[70%] flex flex-col justify-center items-center'>
                         <h1 className="text-4xl font-bold">Projects</h1>
                     <div className='flex flex-wrap md:gap-x-[16rem] gap-y-[4rem] mt-9 justify-center'>
-                        <div className=' w-[70vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden'>
+                        <div className=' w-[90vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden'>
                             <Image src={"/Screenshot 2023-09-26 142749.png"} alt='Movie-Box' width={300} height={300} className='w-full hover:scale-110 transition-all'/>
 
                             <div className='mt-4 space-y-3'>
@@ -43,7 +43,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div>
-                            <div className='w-[70vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden'>
+                            <div className='w-[90vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden'>
                                 <Image src={"/Screenshot 2023-09-26 143021.png"} alt='Image-Flow' width={300} height={300} className='w-full hover:scale-110 transition-all'/>
 
                                 <div className='mt-4 space-y-3'>
@@ -78,7 +78,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div>
-                            <div className='w-[70vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden '>
+                            <div className='w-[90vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden '>
                                 <Image src={"/Screenshot 2023-09-26 143145.png"} alt='Image-Flow' width={300} height={300} className='w-full hover:scale-110 transition-all'/>
 
                                 <div className='mt-4 space-y-3'>
@@ -115,7 +115,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div>
-                            <div className='w-[70vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden'>
+                            <div className='w-[90vw] md:w-[20rem] p-4 rounded-lg shadow-2xl bg-[#0e101b] overflow-hidden'>
                                 <Image src={"/Screenshot 2023-09-26 143244.png"} alt='Image-Flow' width={300} height={300} className='w-full hover:scale-110 transition-all '/>
 
                                 <div className='mt-4 space-y-3'>
