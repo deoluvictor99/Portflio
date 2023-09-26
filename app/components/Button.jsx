@@ -8,7 +8,7 @@ const Button = () => {
     return (
         <>
             <button className="bg-[#576EE0] hover:bg-[#5067dd]  py-3 rounded-md text-white w-[9rem]">
-                <Link href={"/https://wa.me/09075380750"}  target="_blank" className='flex items-center gap-2 justify-center'> <span>Hire me</span>  <Image src="/icons8-forward-50.png" alt='hire me' width={100} height={100} className='w-[1.6rem] inline'/></Link>
+                <Link href={"https://wa.me/09075380750"}  target="_blank" className='flex items-center gap-2 justify-center'> <span>Hire me</span>  <Image src="/icons8-forward-50.png" alt='hire me' width={100} height={100} className='w-[1.6rem] inline'/></Link>
             </button>
         </>
     )
