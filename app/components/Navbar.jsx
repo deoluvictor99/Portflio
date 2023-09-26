@@ -1,7 +1,8 @@
 "use client"
 import React from 'react'
-// import Link from 'next/link'
-import { Link } from 'react-scroll';
+import Link from 'next/link'
+// import { Link } from 'react-scroll';
+
 import { useState } from 'react';
 
 export const Navbar = () => {
@@ -13,7 +14,7 @@ export const Navbar = () => {
             <div className=' w-full h- sm:w-[80%] flex flex-row justify-between items-center text-white p-6 px-8 sm:p-8 '>
                 <h1 className=' text-2xl'>Deolu</h1>
 
-                <button 
+                <button
                         type="button" 
                         className="text-white text-[2.7rem] flex justify-center items-center rounded-lg md:hidden "
                         onClick={()=>setIsOpen(!isOpen)}
@@ -26,7 +27,7 @@ export const Navbar = () => {
                         }
                 </button>
 
-                <ul className={`${isOpen? "left-0 ": "-left-[400%] "}
+                <ul className={`${isOpen? "" : "-left-[200%]"}
                                 sm:flex sm:gap-6 px-9 shadow-md md:shadow-none bg-[#161927] md:bg-transparent
                                 md:flex md:items-center py-4
                                 absolute top-[4.7rem] md:static z-[100] md:z-auto   
@@ -35,13 +36,13 @@ export const Navbar = () => {
                             }
             >
                     <li>
-                        <Link href={"/"} to='Home' offset={-60} smooth={true} duration={500} >Home</Link>
+                        <Link href={"/"} to='Home'  >Home</Link>
                     </li>
                     <li>
-                        <Link href={"/"} to='About' offset={-60} smooth={true} duration={500}>About</Link>
+                        <Link href={"/"} to='About' >About</Link>
                     </li>
                     <li>
-                        <Link href={"/"} to='Projects' offset={-60} smooth={true} duration={500}>Projects</Link>
+                        <Link href={"/"} to='Projects' >Projects</Link>
                     </li>
                     <li>
                         <a href={"https://wa.me/09075380750"} target="_blank">Contact Me</a>
