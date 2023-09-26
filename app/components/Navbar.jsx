@@ -30,8 +30,8 @@ export const Navbar = () => {
                                 md:flex md:items-center py-4
                                 absolute top-[4.7rem] md:static z-[100] md:z-auto   
                                 w-full md:w-auto md:pl-0 space-y-7 sm:space-y-0 md:space-y-0 left-0 transition-all duration-150
-                                ${isOpen? "left-0": "-left-[400%]"}`
-                                }
+                                ${isOpen? "left-0 ": "-left-[400%] hidden "}`
+                            }
             >
                     <li>
                         <Link href={"/"} to='Home' offset={-60} smooth={true} duration={500} >Home</Link>
