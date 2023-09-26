@@ -31,7 +31,7 @@ export const Navbar = () => {
                     </button>
                 </div>
 
-                <ul className={`${isOpen? "" : "-left-[200%]"}
+                <ul className={`${isOpen? "" : " hidden -left-[200%]"}
                                 sm:flex sm:gap-6 px-9 shadow-md md:shadow-none bg-[#161927] md:bg-transparent
                                 md:flex md:items-center py-4
                                 absolute top-[4.7rem] md:static z-[100] md:z-auto   
